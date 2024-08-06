@@ -1,0 +1,54 @@
+body {
+    background-image: linear-gradient(white,lightblue);
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    padding: 40px;
+}
+
+#About {
+    padding: 5px;
+}
+
+#Experience ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0.5em;
+    color: black;
+    border-radius: auto;
+    border-color: grey;
+    border-style: outset;
+    padding: 5px;
+    border-width: 0.2em;
+}
+
+#Connect {
+    text-align: center;
+}
+
+#Connect ul li {
+    padding: 5px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+#github-logo {
+    width: 40px;
+    align-items: center;
+}
+
+#email-icon {
+    width: 40px;
+    align-items: center;
+    margin-right: 2em;
+}
+
+ul {
+    list-style-type: none;
+}
