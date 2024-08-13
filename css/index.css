@@ -52,6 +52,7 @@ body {
     margin-left: 24em;
     text-align: left;
 }
+
   .flex-container > div {
     width: 450px;
     text-align: center;
@@ -60,7 +61,7 @@ body {
     border: #f1f1f1;
     font-size: medium;
     text-align: left;
-  }
+}
 
   .flex-container-2 > div {
     width: 400px;
@@ -71,7 +72,7 @@ body {
     padding-left: 40px;
     margin-left: 21.9em;
     text-align: left; 
-  }
+}
 
   .title-org-1 {
     width: 330px;
