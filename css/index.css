@@ -1,7 +1,23 @@
 body {
     background-image: linear-gradient(white,lightblue);
-    color: black;
+    color:black;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-bar {
+    background-color: hsl(0, 0%, 25%);
+    padding: none;
+    margin: 0px;
+    margin-left: 0;
+}
+
+.nav-bar a {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    text-align: center;
+    float: left;
 }
 
 #name {
@@ -13,18 +29,74 @@ body {
 
 #About {
     padding: 5px;
+    text-align: center;
 }
 
-#Experience ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 0.5em;
+#Experience {
+    padding: 5px;
+    text-align: center;
+}
+
+.paragraph-intro {
+    text-align: left;
+    margin: 2em;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
     color: black;
     border-radius: auto;
-    border-color: grey;
-    border-style: outset;
     padding: 5px;
     border-width: 0.2em;
+    margin-left: 24em;
+    text-align: left;
+}
+  .flex-container > div {
+    width: 450px;
+    text-align: center;
+    line-height: 60px; 
+    font-size: 20px;
+    border: #f1f1f1;
+    font-size: medium;
+    text-align: left;
+  }
+
+  .flex-container-2 > div {
+    width: 400px;
+    text-align: left;
+    line-height: 25px;
+    font-size: 20px;
+    font-size: medium;
+    padding-left: 40px;
+    margin-left: 21.9em;
+    text-align: left; 
+  }
+
+  .title-org-1 {
+    width: 330px;
+    text-align: center;
+    line-height: 10px;
+    font-size: 20px;
+    border: #f1f1f1;
+    font-size: larger;
+    padding-top: 40px;
+    padding-left: 30px;
+    margin-left: 16.6em;
+    text-align: left;
+}
+
+  .title-org-2 {
+    width: 330px;
+    text-align: center;
+    line-height: 10px;
+    font-size: 20px;
+    border: #f1f1f1;
+    font-size: larger;
+    padding-top: 40px;
+    padding-left: 30px;
+    margin-left: 16.6em;
+    text-align: left;
 }
 
 #Connect {
@@ -33,20 +105,34 @@ body {
 
 #Connect ul li {
     padding: 5px;
-    display: inline;
+    display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 #github-logo {
     width: 40px;
     align-items: center;
+    margin-right: 2em;
 }
 
 #email-icon {
     width: 40px;
     align-items: center;
     margin-right: 2em;
+}
+
+#Skills {
+    padding-top: 40px;
+    padding: 5px;
+    margin-left: 5em;
+}
+
+#Projects {
+
+    padding: 5px;
+    margin-left: 5em;
 }
 
 ul {
