@@ -1,70 +1,4 @@
 body {
-    background-image: linear-gradient(white,lightblue);
-    color:black;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-
-/* the following are for making a minimum of two changes to at least 
-three elements for each of your media queries:
-
-/* example changes of body element from mobile to desktop and tablet*/
-
-@media only screen and (min-width: 700px) {
-    body {
-        color: red;
-        text-decoration: overline;
-    }
-}
-
-/* example changes of h1 element from mobile to desktop and tablet */
-
-@media only screen and (min-width: 700px) {
-    h1 {
-        color: blue;
-        font-style: italic;
-    }
-}
-
-/* example changes of p element from mobile to desktop and tablet */
-
-@media only screen and (min-width: 700px) {  
-    p {
-        font-weight: bold;
-        font-family: 'Courier New', Courier, monospace;
-    }
-}
-
-.nav-bar {
-    background-color: hsl(0, 0%, 25%);
-    padding: none;
-    margin: 0px;
-    margin-left: 0;
-}
-
-.nav-bar a {
-    color: black;
-    text-decoration: none;
-    padding: 5px;
-    display: flex;
-    text-align: center;
-    float: left;
-}
-
-
-/* name padding under nav bar for mobile and tablet responsiveness */
-@media only screen and (max-width: 400px) {
-    .nav-bar {
-        padding-inline: 2rem;
-    }
-}
-
-
-
-
-
-/*
- body {
     background-image: linear-gradient(white, lightblue);
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -87,8 +21,6 @@ three elements for each of your media queries:
 }
 
 /* name padding under nav bar for mobile and tablet responsiveness */
-
-
 @media only screen and (max-width: 400px) {
     .nav-bar {
         padding-inline: 2rem;
@@ -147,6 +79,7 @@ three elements for each of your media queries:
     padding-left: 40px;
     margin-left: 21.9em;
     text-align: left;
+    padding-bottom: 40px;  /*additional padding before projects section*/
 }
 
 /* widescreen media 1400px */
@@ -426,7 +359,7 @@ three elements for each of your media queries:
 
 #Projects {
     padding: 5px;
-    margin-left: 5em;
+    text-align: center;
 }
 
 ul {
