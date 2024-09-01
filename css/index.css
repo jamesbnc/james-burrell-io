@@ -4,6 +4,37 @@ body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
+/* the following are for making a minimum of two changes to at least 
+three elements for each of your media queries:
+
+/* example changes of body element from mobile to desktop and tablet*/
+
+@media only screen and (min-width: 700px) {
+    body {
+        color: red;
+        text-decoration: overline;
+    }
+}
+
+/* example changes of h1 element from mobile to desktop and tablet */
+
+@media only screen and (min-width: 700px) {
+    h1 {
+        color: blue;
+        font-style: italic;
+    }
+}
+
+/* example changes of p element from mobile to desktop and tablet */
+
+@media only screen and (min-width: 700px) {  
+    p {
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+
 .nav-bar {
     background-color: hsl(0, 0%, 25%);
     padding: none;
@@ -18,6 +49,50 @@ body {
     display: flex;
     text-align: center;
     float: left;
+}
+
+
+/* name padding under nav bar for mobile and tablet responsiveness */
+@media only screen and (max-width: 400px) {
+    .nav-bar {
+        padding-inline: 2rem;
+    }
+}
+
+
+
+
+
+/*
+ body {
+    background-image: linear-gradient(white, lightblue);
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-bar {
+    background-color: hsl(0, 0%, 25%);
+    padding: none;
+    margin: 0px;
+    margin-left: 0;
+}
+
+.nav-bar a {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    text-align: center;
+    float: left;
+}
+
+/* name padding under nav bar for mobile and tablet responsiveness */
+
+
+@media only screen and (max-width: 400px) {
+    .nav-bar {
+        padding-inline: 2rem;
+    }
 }
 
 #name {
@@ -44,7 +119,7 @@ body {
 
 .flex-container {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     color: black;
     border-radius: auto;
     padding: 5px;
@@ -53,17 +128,17 @@ body {
     text-align: left;
 }
 
-  .flex-container > div {
+.flex-container>div {
     width: 450px;
     text-align: center;
-    line-height: 60px; 
+    line-height: 60px;
     font-size: 20px;
     border: #f1f1f1;
     font-size: medium;
     text-align: left;
 }
 
-  .flex-container-2 > div {
+.flex-container-2>div {
     width: 400px;
     text-align: left;
     line-height: 25px;
@@ -71,12 +146,144 @@ body {
     font-size: medium;
     padding-left: 40px;
     margin-left: 21.9em;
-    text-align: left; 
+    text-align: left;
 }
 
-  .title-org-1 {
+/* widescreen media 1400px */
+
+@media screen and (min-width: 1400px) {
+    .flex-container {
+        width: 1370px;
+        margin-left: 24rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .flex-container-2 {
+        width: 1370px;
+        margin-left: 0rem;
+
+    }
+}
+
+
+/* widescreen media 1500px */
+
+@media screen and (min-width: 1500px) {
+    .flex-container {
+        width: 1470px;
+        margin-left: 28rem;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .flex-container-2 {
+        width: 1470px;
+        margin-left: 4rem;
+    }
+}
+
+/* widescreen media 1600px */
+
+@media screen and (min-width: 1600px) {
+    .flex-container {
+        width: 1570px;
+        margin-left: 30rem;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .flex-container-2 {
+        width: 1570px;
+        margin-left: 6rem;
+    }
+}
+
+/* widescreen media 1700px */
+
+@media screen and (min-width: 1700px) {
+    .flex-container {
+        width: 1670px;
+        margin-left: 34rem;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .flex-container-2 {
+        width: 1670px;
+        margin-left: 10rem;
+    }
+}
+
+/* widescreen media 1800px */
+
+@media screen and (min-width: 1800px) {
+    .flex-container {
+        width: 1770px;
+        margin-left: 36rem;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .flex-container-2 {
+        width: 1770px;
+        margin-left: 12rem;
+    }
+}
+
+/* widescreen media 1900px */
+
+@media screen and (min-width: 1900px) {
+    .flex-container {
+        width: 1870px;
+        margin-left: 38rem;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .flex-container-2 {
+        width: 1870px;
+        margin-left: 14rem;
+    }
+}
+
+/* mobile and tablet responsive design for container 1 */
+
+@media only screen and (max-width: 700px) {
+    .flex-container {
+        margin-left: 2rem;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .flex-container {
+        margin-left: 2rem;
+        overflow: hidden;
+    }
+}
+
+/* mobile and tablet responsive design for container 2 */
+
+@media only screen and (max-width: 700px) {
+    .flex-container-2>div {
+        margin-left: 0rem;
+        width: auto;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .flex-container-2>div {
+        margin-left: 0rem;
+        width: auto;
+        overflow: hidden;
+    }
+}
+
+.title-org-1,
+.title-org-2 {
     width: 330px;
-    text-align: center;
     line-height: 10px;
     font-size: 20px;
     border: #f1f1f1;
@@ -87,18 +294,90 @@ body {
     text-align: left;
 }
 
-  .title-org-2 {
-    width: 330px;
-    text-align: center;
-    line-height: 10px;
-    font-size: 20px;
-    border: #f1f1f1;
-    font-size: larger;
-    padding-top: 40px;
-    padding-left: 30px;
-    margin-left: 16.6em;
-    text-align: left;
+/* mobile and tablet responsive design for titles */
+
+@media only screen and (max-width: 700px) {
+
+    .title-org-1,
+    .title-org-2 {
+        margin-left: -2rem;
+    }
 }
+
+@media only screen and (max-width: 820px) {
+
+    .title-org-1,
+    .title-org-2 {
+        margin-left: -2rem;
+    }
+}
+
+/* large screen responsive design for titles */
+
+@media screen and (min-width: 1400px) {
+
+    .title-org-1,
+    .title-org-2 {
+        width: 1370px;
+        margin-left: 20rem;
+    }
+}
+
+/* 1500 */
+
+@media screen and (min-width: 1500px) {
+
+    .title-org-1,
+    .title-org-2 {
+        width: 1470px;
+        margin-left: 24rem;
+    }
+}
+
+/* 1600 */
+
+@media screen and (min-width: 1600px) {
+
+    .title-org-1,
+    .title-org-2 {
+        width: 1570px;
+        margin-left: 26rem;
+    }
+}
+
+/* 1700 */
+
+@media screen and (min-width: 1700px) {
+
+    .title-org-1,
+    .title-org-2 {
+        width: 1670px;
+        margin-left: 30rem;
+    }
+}
+
+/* 1800 */
+
+@media screen and (min-width: 1800px) {
+
+    .title-org-1,
+    .title-org-2 {
+        width: 1770px;
+        margin-left: 32rem;
+    }
+}
+
+/* 1900 */
+
+@media screen and (min-width: 1900px) {
+
+    .title-org-1,
+    .title-org-2 {
+        width: 1870px;
+        margin-left: 36rem;
+    }
+}
+
 
 #Connect {
     text-align: center;
@@ -109,7 +388,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 #github-logo {
@@ -127,11 +405,26 @@ body {
 #Skills {
     padding-top: 40px;
     padding: 5px;
-    margin-left: 5em;
+    text-align: center;
+    margin: 2em;
+}
+
+#Skills li {
+    padding-top: 40px;
+    padding: 5px;
+    margin-left: -2.7em;
+    display: inline-flex;
+    margin: 3rem;
+}
+
+@media only screen and (max-width: 820px) {
+    #Skills li {
+        text-align: center;
+        margin-left: 1em;
+    }
 }
 
 #Projects {
-
     padding: 5px;
     margin-left: 5em;
 }
