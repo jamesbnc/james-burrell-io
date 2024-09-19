@@ -365,3 +365,13 @@ body {
 ul {
     list-style-type: none;
 }
+
+#message-section-form {
+    padding: 2em;
+    text-align: center;
+}
+
+#message-section {
+    padding: 2em;
+    text-align: center;
+}
