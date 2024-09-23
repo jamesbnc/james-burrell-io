@@ -359,6 +359,11 @@ body {
 
 #Projects {
     padding: 5px;
+    text-align: center
+}
+
+#Projects>ul {
+    padding: 5px;
     text-align: center;
 }
 
@@ -372,6 +377,5 @@ ul {
 }
 
 #message-section {
-    padding: 2em;
     text-align: center;
 }
