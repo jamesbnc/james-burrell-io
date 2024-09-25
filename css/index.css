@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(white, lightblue);
+    background-image: linear-gradient(rgb(234, 255, 184), rgb(236, 216, 180));
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
